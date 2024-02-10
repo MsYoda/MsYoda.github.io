@@ -71629,7 +71629,7 @@ rA(a){return this.Qd(a)},
 Qd(a){var s=0,r=A.R(t.cu),q,p=this,o,n,m,l
 var $async$rA=A.S(function(b,c){if(b===1)return A.O(c,r)
 while(true)switch(s){case 0:s=3
-return A.Z(A.alf(A.ajO("http","api.geonames.org","/searchJSON",A.ao(["name",a,"maxRows","1","username",p.a.Er("geoname")],t.N,t.z))),$async$rA)
+return A.Z(A.alf(A.ajO("https","secure.geonames.org","/searchJSON",A.ao(["name",a,"maxRows","1","username",p.a.Er("geoname")],t.N,t.z))),$async$rA)
 case 3:l=c
 if(l.b!==200){q=A.lT(B.BL,null,t.cu)
 s=1
